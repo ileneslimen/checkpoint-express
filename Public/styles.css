@@ -1,0 +1,135 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color:#eff0f5;
+  
+}
+h1 {padding-top: 6%;
+    width: 381px;
+    margin-left: 88px;
+    line-height: 45px;}
+.backimg{
+    float: right;}
+  
+
+  /* ~~ Top Navigation Bar ~~ */
+  
+  #navigation-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+  }
+  
+  .navigation-bar {
+    background-color:white;
+    height: 70px;
+    width: 100%;
+    
+    display:flex;
+    align-items: center;
+  }
+  
+  #navigation-container img {
+    float: left;
+    width: 117px;
+  }
+  
+  #navigation-container ul {
+    padding: 0px;
+    margin: 0px;
+    
+    display:flex;
+    text-align: center;
+  }
+  
+  #navigation-container li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+  }
+  
+  #navigation-container li a {
+    color: rgb(24, 19, 19);
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+  }
+  
+  #menu {
+    float: right;
+  }
+  .project-card {
+    cursor: pointer;
+    width: 385px;
+    height: auto;
+    background: white;
+   
+    margin: 13px 86px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+  }
+  
+  .project-card:hover {
+    background-color: #a7bea975;
+    transform: translateY(-4px);
+  }
+  
+.cards{margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 1280px;}
+
+  label{    font-size: 16px;
+    margin-left: 35px;
+    color: #252323b8;}
+
+  .project-card #home {    cursor: default;
+    font-size: .875rem;
+    line-height: 1rem;
+    padding-left: 10px;
+   
+    
+    display: flex;
+    align-items: center;
+    
+    background: #fff;
+    overflow: hidden;
+    box-shadow: none;
+    border: 1px solid #959ba7;
+    margin-left: 20px;
+    margin: 30px;
+    width: 301px;
+    height: 38px;}
+  button {position: relative;
+    border: 0;
+    border-radius: 0.25rem;
+   
+    cursor: pointer;
+    text-align: center;
+   
+    text-decoration: none;
+    display: inline-block;
+ 
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: RalewayX,arial,sans-serif;
+    font-style: normal;
+    line-height: 1.375;
+    width: 100%;
+    display: block;
+    box-shadow: none;
+    color: hsl(0,0%,100%);
+    background-color: hsl(104,38%,42%);}
+
+
+#first { margin-bottom:10px}
+.contact  {    width: 782px;
+  margin: auto;
+  margin-top: 68px;}
